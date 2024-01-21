@@ -36,6 +36,7 @@ Response Examples:
 Success: { "imageUrl": "..." }
 Error: { "message": "Internal server error or No image found" }
 
-To get all images simply go to the root '...localhost.../api'
+-To get all images simply go to the root '...localhost.../api'
 Method:GET
-Uploaded images are present in uploads folder within src folder
+
+-Uploaded images are present in uploads folder within src folder
