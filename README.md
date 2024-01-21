@@ -22,7 +22,7 @@ image (multipart/form-data)
 Response Format:
 JSON
 Response Examples:
-Success: { "fileName":"...", filePath:"..." }
+Success: { "filename":"...", filePath:"...", _id:"", ... }
 Error: { "message": "Only jpg, png, and gif are supported" }
 
 2. Get Image Endpoint
