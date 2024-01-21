@@ -17,7 +17,7 @@ app.use(express.json());
 app.use('/src/uploads', express.static(path.join(__dirname, 'uploads')));
 
 
-app.use('/', imageRoutes);
+app.use('/api', imageRoutes);
 
 connectDB(process.env.MONGO_URL);
 
